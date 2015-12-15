@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+  <include layout="@layout/toolbar" android:id="@+id/toolbar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:id="@+id/insert"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Beacons"
+        android:id="@+id/showbeacons"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09" />
+
+    <ListView
+      android:id="@+id/device_list"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+        android:layout_weight="0.77" />
+
+</LinearLayout>
+<!-- From: file:/D:/JerryC/Beacon/Mitlab_beacon_app/app/src/main/res/layout/main.xml -->

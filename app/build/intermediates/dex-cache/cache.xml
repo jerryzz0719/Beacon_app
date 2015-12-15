@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\JerryC\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-41ad5d2872ddd349c266ccd2739ff721aadace6c.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Mitlab_beacon_app\app\app\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\pre-dexed\debug\volley-c32c7274bfa11328869d2156cbe133b2214d0c81.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\exploded-aar\estimote-sdk\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6273a2f37944fcedadfb8f3e30e6ec99b24eb6b">
+        <dex dex="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\pre-dexed\debug\classes-1f3575de5413ff24396696ed02fd9ca34b939413.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-ceb3905f0813bf1e17c74ee7282b58e124c589d0.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\pre-dexed\debug\classes-7674fac329378be42cddee975104a22bcfe318c9.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6273a2f37944fcedadfb8f3e30e6ec99b24eb6b">
+        <dex dex="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\pre-dexed\debug\classes-78f2364a40d226de74bef61832b480a24c77c76b.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-0964013e670d8fad28b84f68f884b3424de163cc.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\pre-dexed\debug\classes-06a0710a7115547ea658b1e72f9a0c6436632385.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\pre-dexed\debug\classes-61d27aaae7194c59459fb0f78cba818202c2fcfb.jar" />
+    </item>
+    <item
+        jar="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\JerryC\Beacon\Estimote\Android-SDK-master\Demos\build\intermediates\pre-dexed\debug\classes-5540bb6d0414038b4435bd1de2fe1fbf8347a4f9.jar" />
+    </item>
+
+</items>

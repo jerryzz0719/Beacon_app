@@ -1,0 +1,235 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:2:1-130:12
+	xmlns:android
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:3:11-48
+	android:versionName
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:5:11-36
+	android:versionCode
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:20:5-68
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:21:5-74
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:21:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:27:22-78
+receiver#com.estimote.examples.demos.beacon.service.ISBeaconServiceReceiver
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:28:5-34:16
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:28:15-69
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:29:9-33:25
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:30:13-75
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:30:21-72
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:31:13-83
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:31:21-80
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:32:13-86
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:32:21-83
+service#com.estimote.examples.demos.beacon.service.ISBeaconService
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:36:5-42:15
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:40:9-40
+	android:process
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:41:9-50
+	android:exported
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:39:9-33
+	android:enabled
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:38:9-31
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:37:9-55
+service#com.estimote.examples.demos.beacon.BeaconIntentProcessor
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:44:5-84
+	android:enabled
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:44:59-81
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:44:14-58
+service#com.estimote.examples.demos.location.ISLocationService
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:45:5-59
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:45:14-56
+uses-feature#android.hardware.bluetooth_le
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:58:3-87
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:58:62-85
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:58:17-61
+application
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:60:3-128:17
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:62:7-37
+	android:theme
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:63:7-43
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:61:7-39
+activity#com.estimote.examples.demos.activities.AllDemosActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:65:5-73:16
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:68:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:67:9-31
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:66:9-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:69:7-72:23
+action#android.intent.action.MAIN
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:70:9-60
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:70:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:71:9-68
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:71:19-66
+activity#com.estimote.examples.demos.activities.MapActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:74:5-77:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:77:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:76:9-33
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:75:9-47
+activity#com.estimote.examples.demos.activities.ListBeaconsActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:79:5-82:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:82:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:81:9-38
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:80:9-55
+activity#com.estimote.examples.demos.activities.ListEddystoneActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:84:5-87:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:87:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:86:9-41
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:85:9-57
+activity#com.estimote.examples.demos.activities.ListNearablesActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:89:5-92:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:92:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:91:9-38
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:90:9-57
+activity#com.estimote.examples.demos.activities.DistanceBeaconActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:94:5-96:53
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:96:15-51
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:95:15-44
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:94:15-64
+activity#com.estimote.examples.demos.activities.NotifyDemoActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:98:5-100:53
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:100:15-51
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:99:15-42
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:98:15-60
+activity#com.estimote.examples.demos.activities.CharacteristicsDemoActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:102:5-104:53
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:104:15-51
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:103:15-51
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:102:15-69
+activity#com.estimote.examples.demos.activities.UpdateDemoActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:106:5-108:53
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:108:15-51
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:107:15-51
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:106:15-60
+activity#com.estimote.examples.demos.activities.EddystoneDemoActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:110:5-112:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:112:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:111:9-39
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:110:15-63
+activity#com.estimote.examples.demos.activities.NearablesDemoActivity
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:114:5-116:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:116:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:115:9-39
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:114:15-63
+activity#com.estimote.examples.demos.activities.ParsefromDB
+ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:117:5-119:47
+	android:screenOrientation
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:119:9-45
+	android:label
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:118:9-38
+	android:name
+		ADDED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml:117:15-53
+uses-sdk
+INJECTED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+	android:minSdkVersion
+		INJECTED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\JerryC\Beacon\Mitlab_beacon_app\app\src\main\AndroidManifest.xml
+service#com.estimote.sdk.service.BeaconService
+ADDED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:estimote-sdk:] D:\JerryC\Beacon\Mitlab_beacon_app\app\build\intermediates\exploded-aar\estimote-sdk\AndroidManifest.xml:22:13-66
